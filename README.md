@@ -1,9 +1,15 @@
-## Welcome to Yijun's world
+# YIJUN LIN
 
-My name is Yijun Lin. I am now working as a data scientist in Spatial Sciences Institude in University of Southern California.
+I am now working as a data scientist in Spatial Sciences Institude in University of Southern California.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+## Bio
+I received my Master degree in Data Infomatics from the University of Southern California in 2017. My Bachelor degree in Computer Science from Tongji University (Shanghai, China) in 2015.
+
+## Publication
+
+Lin, Y; Pan, F; Chiang, Y.; Stripelis, D; Ambite, J L; Eckel, S P; and Habre, R. Mining Public Datasets for Modeling Intra-City PM2.5 Concentrations at a Fine Spatial Resolution. In 25th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL 2017), Redondo Beach, CA, USA, November 2017.
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
@@ -12,6 +18,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Syntax highlighted code block
 
 # Header 1
+
 ## Header 2
 ### Header 3
 
