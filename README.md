@@ -1,6 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to Yijun's world
 
-You can use the [editor on GitHub](https://github.com/linyijun/linyijun.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+My name is Yijun Lin. I am now working as a data scientist in Spatial Sciences Institude in University of Southern California.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
