@@ -4,11 +4,10 @@ I am now working as a data scientist in Spatial Sciences Institude in University
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-## Bio
+## BIO
 I received my Master degree in Data Infomatics from the University of Southern California in 2017. My Bachelor degree in Computer Science from Tongji University (Shanghai, China) in 2015.
 
-## Publication
-
+## PUBLICATION
 Lin, Y; Pan, F; Chiang, Y.; Stripelis, D; Ambite, J L; Eckel, S P; and Habre, R. Mining Public Datasets for Modeling Intra-City PM2.5 Concentrations at a Fine Spatial Resolution. In 25th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL 2017), Redondo Beach, CA, USA, November 2017.
 ### Markdown
 
@@ -22,6 +21,8 @@ Syntax highlighted code block
 ## Header 2
 ### Header 3
 
+
+
 - Bulleted
 - List
 
@@ -32,6 +33,18 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+## WORKING EXPERIENCES                                                              
+Data Scientist (Research)
+Spatial Sciences Institute (SSI), University of Southern California
+	Research Areas: Artificial Intelligence, Data Mining, Spatial Data Analysis
+Teaching Assistant
+USC Graduate Level Course INF553 “Foundations and Applications of Data Mining”
+	Responsible for helping students and grading quizzes and assignments.
+	Designed and held Recommendation System Competition for the course.
+Software Engineering Intern 
+GBS/AI Department of IBM (China) Company Ltd. 
+	Maintained and Tested POS system and CRM system
+	Developed backend of Customer Consulting and Complaint System (JAVA)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
