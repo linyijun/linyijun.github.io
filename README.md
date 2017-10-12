@@ -33,18 +33,40 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
+```markdown
 ## WORKING EXPERIENCES                                                              
-Data Scientist (Research)
-Spatial Sciences Institute (SSI), University of Southern California
-	Research Areas: Artificial Intelligence, Data Mining, Spatial Data Analysis
-Teaching Assistant
-USC Graduate Level Course INF553 “Foundations and Applications of Data Mining”
+#### **Data Scientist (Research)**
+_Spatial Sciences Institute (SSI), University of Southern California_＜/br＞
+- Research Areas: Spatial Data Analysis, Data Mining, Machine Learning, Artificial Intelligence
+#### **Teaching Assistant**
+_USC Graduate Level Course INF553 “Foundations and Applications of Data Mining”_＜/br＞
 	Responsible for helping students and grading quizzes and assignments.
 	Designed and held Recommendation System Competition for the course.
-Software Engineering Intern 
-GBS/AI Department of IBM (China) Company Ltd. 
+#### **Software Engineering Intern**
+_GBS/AI Department of IBM (China) Company Ltd._＜/br＞
 	Maintained and Tested POS system and CRM system
 	Developed backend of Customer Consulting and Complaint System (JAVA)
+```
+
+## HONORS & AWARDS                                                            
+Mar. 2017 	Expediation Hackathon in Los Angeles, _Second Place_ ＜/br＞
+Dec. 2016	USC Viterbi Graduate Mentorship Program Certification ＜/br＞
+Apr. 2016	Outstanding Graduate, Tongji University  ＜/br＞
+Nov. 2014	The 8‘th Tongji University Undergraduate Innovation Programs, _Third Class_ ＜/br＞
+Nov. 2014	Outstanding Student, Tongji University ＜/br＞
+Oct. 2014	Tongji University Scholarship, _Second Class (Top 15%)_ ＜/br＞
+Oct. 2014	Tongji University “Social Activities Scholarship” Prize ＜/br＞
+Oct. 2013	Tongji University Scholarship, _Third Class (Top 25%)_ ＜/br＞
+Oct. 2012       Summer Social Activity, “Outstanding Organization Award” ＜/br＞
+
+
+
+
+
+
+
+
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
