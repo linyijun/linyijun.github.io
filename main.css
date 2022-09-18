@@ -62,6 +62,13 @@ h3 {
   color: var(--title);
 }
 
+h4 {
+  font-size: 1.3rem;
+  padding-bottom: 0px;
+  font-weight: bold;
+  color: var(--title);
+}
+
 b {
   font: inherit;
   font-weight: bold;

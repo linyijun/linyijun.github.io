@@ -48,28 +48,37 @@
 
 <div class=""><div class="container"><div class="row"><div class="col-md-10 offset-1"><hr></div></div></div></div>
 
+<div class="py-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 offset-1">
+        <div class="row">
+          <div class="col-md-9">
+            <h4>Text Detection and Recognition in Historical Maps</h4>
+            <p> We use a state-of-the-art network architecture <a href="https://github.com/mlpc-ucsd/TESTR" target="_blank">TESTR</a> for detecting and recognizing text labels on image patches. Due to the lack of annotated samples for training, we create a set of synthetic maps to mimic the text styles (e.g., font, spacing, orientation) in the real historical maps. We place the location names from OpenStreetMap on a map by considering the shape of the location geometry and merge the text with various background styles extracted from the Rumsey collection maps. We train the model with these unlimited synthetic maps and apply the model to the historical maps. <a href="https://github.com/machines-reading-maps/mapkurator-system" target="_blank">[Github]</a></p>
+          </div>
+          <div class="col-md-3">
+            <img src="images/testr.jpg" class="img-fluid"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
+
+<div class=""><div class="container"><div class="row"><div class="col-md-10 offset-1"><hr></div></div></div></div>
 
 <div class="py-3">
   <div class="container">
     <div class="row">
       <div class="col-md-10 offset-1">
         <div class="row">
-          <div class="col-md-3">
-            <img src="images/unlocking.jpg" class="img-fluid"/>
-          </div>
-          <div class="col-md-9">
-            <h4>Text Detection and Recognition in Historical Map</h4>
-            <p class="font-italic">
-              Text Recognition<br>
-<!--               OpenCV &middot; C# &middot; SVM &middot; Grab-cut &middot; Python
- -->            </p>
-            <p>
-<!--               <li>Utilized <i>Strabo</i> (a map-processing software) for the automatic extraction of text labels from historical maps</li>
-              <li>Automatically evaluated <i>Strabo</i> with 15 maps to explore ways for improving the accuracy</li>
- -->            </p>
-            <p>
-              <a href="https://github.com/spatial-computing/strabo-text-recognition" class="btn btn-outline-primary" target="_blank">GitHub</a>
-            </p>
+          <!-- <div class="col-md-3">
+            <img src="images/sadnet.jpg" class="img-fluid"/>
+          </div> -->
+          <div class="col-md-12">
+            <h4>Predicting Abnormal Events in Network Operation Time-Series Data</h4>
+            <p> We propose a machine learning approach for predicting abnormal events from multiple multivariate time-series data by learning a separable embedding space for normal and abnormal activities by encouraging embeddings to form two clusters and improving the separability of embeddings in a semi-supervised manner. <a href="https://github.com/knowledge-computing/semisup-abnormal-event-prediction" target="_blank">[Github]</a> <a href="https://arxiv.org/abs/2110.07660" target="_blank">[Paper]</a></p>
           </div>
         </div>
       </div>
@@ -86,77 +95,32 @@
       <div class="col-md-10 offset-1">
         <div class="row">
           <div class="col-md-3">
-            <img src="images/pm25forecast1.png" class="img-fluid" alt="msaenet-icon" />
-          </div>
-          <div class="col-md-9"><br>
-            <h5>Exploiting Spatiotemporal Patterns for Accurate Air Quality Forecasting using Deep Learning [SigSpatial2018 Full Paper]</h5> 
-            <p class="font-italic"> Spatiotemporal Forecasting &middot; Graph Convolutional Neural Network</p>
-            <p>
-              <li style="margin-bottom: 8px;">Construct spatial correlation between two locations using the context of air quality-related environmental factors on a graph</li>
-              <li style="margin-bottom: 8px;">Jointly model spatial and temporal dependencies using <b>a geo-context-based <a href="../publications/Diffusion convolutional recurrent neural network Data-driven traffic forecasting.pdf">diffusion-convolutional recurrent neural network</a></b> for accurately forecasting PM2.5 concentrations
-            </p>
-            <p style="word-spacing: 10px">
-              <a href="../publications/paper_Exploiting Spatiotemporal Patterns for Accurate Air quality Forecasting using Deep Learning.pdf" class="btn btn-outline-primary">Paper</a>
-              <a href="https://github.com/spatial-computing/air-quality-forecasting-model" class="btn btn-outline-primary">GitHub</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class=""><div class="container"><div class="row"><div class="col-md-10 offset-1"><hr></div></div></div></div>
-
-
-<div class="py-3">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 offset-1">
-        <div class="row">
-          <div class="col-md-3">
-            <img src="images/pm25prediction.png" class="img-fluid"/>
-          </div>
-          <div class="col-md-9"> 
-            <h5>Mining Public Datasets for Modeling Intra-City PM2.5 Concentrations at a Fine Spatial Resolution [SigSpatial2017 Full Paper]</h5> 
-            <p class="font-italic">Spatial Prediction &middot; Clustering  &middot; Feature Selection</p>
-            <p>
-              <li style="margin-bottom: 8px;">Automatically select important PM2.5-related geographic feature types (from publicly accessible data, <b>OpenStreetMap</b>) that determines the clustering pattern of PM2.5 time-series using <b>Random Forest classification</b></li>
-              <li style="margin-bottom: 8px;">Build a <b>regression model</b> with the extracted features and PM2.5 observations from sparse monitoring stations for predicting PM2.5 concentrations at a fine spatial scale</li>
-            </p>
-            <p style="word-spacing: 10px">
-              <a href="../publications/paper_Mining Public Datasets for Modeling Intra-City PM2.5 Concentrations at a Fine Spatial Resolution.pdf" class="btn btn-outline-primary">Paper</a>
-              <a href="https://github.com/spatial-computing/air-quality-prediction-model" class="btn btn-outline-primary" target="_blank">GitHub</a>
-              <!-- <a href="http://jonsnow.usc.edu/" class="btn btn-outline-primary" target="_blank">Website</a> -->
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class=""><div class="container"><div class="row"><div class="col-md-10 offset-1"><hr></div></div></div></div>
-
-<div class="py-3">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 offset-1">
-        <div class="row">
-          <div class="col-md-3">
-            <img src="images/metrans.jpg" class="img-fluid"/>
+            <img src="images/icdm2020.png" class="img-fluid"/>
           </div>
           <div class="col-md-9">
-            <h5>Metrans: Los Angeles Metro Bus Data Analysis Using GPS Trajectory and Schedule Data [SigSpatial2018 Demo Paper]</h4>
-            <p class="font-italic">GPS Trajectory &middot; Map Matching</p>
-            <p>
-              <li style="margin-bottom: 8px;">Align Los Angeles Bus GPS data to the bus scheduled trajectory data using <b>map matching approach</b> for detecting bus delay time at bus stops</li>
-              <li style="margin-bottom: 8px;">Built a dashboard to show the average estimated delay time at each bus stop</li>
-            </p>
-            <p>
-              <a href="../publications/paper_Los Angeles Metro Bus Data Analysis Using GPS Trajectory and Schedule Data.pdf" class="btn btn-outline-primary">Paper</a>
-            </p>
+            <h4>Building Autocorrelation-Aware Representations for Fine-Scale Spatiotemporal Prediction [ICDM2020 Full Paper]</h4>
+            <p> We propose DeepLATTE for fine-spatial-scale prediction of location-dependent time series data and an application of air quality prediction. The method learns a spatiotemporal representation from contextual data and labeled data and then refines the representation space by regularizing the autocorrelation pattern to guide the predictions. <a href="https://github.com/knowledge-computing/deeplatte-fine-scale-prediction" target="_blank">[Github]</a> <a href="https://ieeexplore.ieee.org/abstract/document/9338402" target="_blank">[Paper]</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
+
+
+<div class=""><div class="container"><div class="row"><div class="col-md-10 offset-1"><hr></div></div></div></div>
+
+<div class="py-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 offset-1">
+        <div class="row">
+          <!-- <div class="col-md-3">
+            <img src="images/pm25forecast1.png" class="img-fluid" alt="msaenet-icon" />
+          </div> -->
+          <div class="col-md-12"><br>
+            <h4>Exploiting Spatiotemporal Patterns for Accurate Air Quality Forecasting using Deep Learning [SigSpatial2018 Full Paper]</h4> 
+            <p> We propose a machine learning method for accurate air quality forecasting. The method constructs spatial correlation between two locations using the context of air quality-related environmental factors on a graph and builds a Geo-Context-based <a href="https://arxiv.org/abs/1707.01926" target="_blank">diffusion-convolutional recurrent neural network</a> to jointly models spatial and temporal dependencies for air quality forecasting. <a href="https://dl.acm.org/doi/abs/10.1145/3274895.3274907?casa_token=728u8xtHrtsAAAAA:JT-w77d_15xw60JQkKTrvmNVgIYCCHNR4Uuo-IYRk6VRGS785lAp9-KEQCRjGZcP6hZFqoe2trY" target="_blank"> [Paper]</a></p>
           </div>
         </div>
       </div>
@@ -165,7 +129,28 @@
 </div>
 
 
+<div class=""><div class="container"><div class="row"><div class="col-md-10 offset-1"><hr></div></div></div></div>
 
+
+<div class="py-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 offset-1">
+        <div class="row">
+          <!-- <div class="col-md-3">
+            <img src="images/pm25prediction.png" class="img-fluid"/>
+          </div> -->
+          <div class="col-md-12"> 
+            <h4>Mining Public Datasets for Modeling Intra-City PM2.5 Concentrations at a Fine Spatial Resolution [SigSpatial2017 Full Paper]</h4> 
+            <p> We propose a method that automatically select important PM2.5-related geographic feature types (from publicly accessible data, OpenStreetMap) that determines the clustering pattern of PM2.5 time-series using random forest classification and then builds a regression model with the extracted features and PM2.5 observations from sparse monitoring stations for predicting PM2.5 concentrations at a fine spatial scale. <a href="https://github.com/knowledge-computing/deeplatte-fine-scale-prediction" target="_blank">[Github]</a> <a href="https://dl.acm.org/doi/abs/10.1145/3274895.3274907?casa_token=728u8xtHrtsAAAAA:JT-w77d_15xw60JQkKTrvmNVgIYCCHNR4Uuo-IYRk6VRGS785lAp9-KEQCRjGZcP6hZFqoe2trY" target="_blank"> [Paper]</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class=""><div class="container"><div class="row"><div class="col-md-10 offset-1"><hr></div></div></div></div>
       
-  </body>
+</body>
 </html>
