@@ -253,3 +253,12 @@ a:hover {
     padding-right: 5vw;
   }
 }
+
+.job-market-text {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #000000;   /* teal theme */
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
