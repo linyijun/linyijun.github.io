@@ -173,6 +173,15 @@ a:hover {
   margin-bottom: 1rem;
 }
 
+.profile-name {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.25;
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
 .profile-links {
   display: flex;
   flex-direction: column;
@@ -254,11 +263,20 @@ a:hover {
   }
 }
 
-.job-market-text {
-  font-size: 1.05rem;
+.job-text {
+  font-size: 1.1rem;
   font-weight: 600;
   color: #000000;   /* teal theme */
   margin-bottom: 0.5rem;
   margin-top: 1rem;
+}
+
+.job-text b {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.job-text b:last-child {
+  margin-bottom: 0;
 }
 
