@@ -216,6 +216,84 @@ a:hover {
   border: 1px solid #e5e7eb;
 }
 
+.bio-spaced {
+  margin-top: 1.25rem;
+}
+
+.news-item {
+  display: grid;
+  grid-template-columns: 5.2rem 1.25rem minmax(0, 1fr);
+  gap: 0.35rem;
+  align-items: baseline;
+  padding-bottom: 0.65rem;
+}
+
+.news-item:last-child {
+  padding-bottom: 0;
+}
+
+.news-item time {
+  color: #6b7280;
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.publication-list p {
+  padding: 0 0 1rem;
+}
+
+.publication-list p:last-child {
+  padding-bottom: 0;
+}
+
+.publication-title {
+  color: var(--foreground);
+  font-weight: 500;
+}
+
+/* -------------------------------------------------
+   CAT GALLERY
+-------------------------------------------------- */
+
+.cats-section {
+  background: #ffffff;
+}
+
+.cats-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.cat-card {
+  margin: 0;
+  min-width: 0;
+}
+
+.cat-photo-wrap {
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  border: 1px solid #d1d5db;
+  border-radius: 0.75rem;
+  background: #f3f4f6;
+}
+
+.cat-photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cat-card figcaption {
+  padding-top: 0.55rem;
+  color: #4b5563;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
 /* -------------------------------------------------
    PROJECT / CAT IMAGES (uniform size)
 -------------------------------------------------- */
@@ -260,6 +338,11 @@ a:hover {
   .content {
     padding-left: 5vw;
     padding-right: 5vw;
+  }
+
+  .cats-gallery {
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
 }
 
