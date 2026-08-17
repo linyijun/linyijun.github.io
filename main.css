@@ -239,6 +239,30 @@ a:hover {
   white-space: nowrap;
 }
 
+.news-archive {
+  margin-top: 0.15rem;
+}
+
+.news-archive summary {
+  color: var(--link);
+  cursor: pointer;
+  font-weight: 500;
+  width: fit-content;
+}
+
+.news-archive[open] summary {
+  margin-bottom: 0.75rem;
+}
+
+.summary-expanded,
+.news-archive[open] .summary-collapsed {
+  display: none;
+}
+
+.news-archive[open] .summary-expanded {
+  display: inline;
+}
+
 .publication-list p {
   padding: 0 0 1rem;
 }
