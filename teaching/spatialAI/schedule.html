@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schedule — Spatial AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="content-wrap">
+    <header class="site-header">
+      <div class="page-container">
+        <h1><a href="main.html">Spatial Enabled Artificial Intelligence</a></h1>
+        <dl class="course-meta">
+          <div class="course-meta-item"><dt>Instructor</dt><dd><a href="../../index.html">Yijun Lin</a></dd></div>
+          <div class="course-meta-item"><dt>Term</dt><dd>Spring2027</dd></div>
+        </dl>
+        <nav class="top-nav">
+          <ul>
+            <li><a href="main.html">About Course</a></li>
+            <li><a href="schedule.html" class="active">Schedule</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="grading.html">Grading</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="page-container page-container--wide">
+        <section class="content-section">
+          <p class="schedule-note">The schedule may be adjusted to support course progress.</p>
+          <p class="schedule-note">Dates follow the <a href="https://registrar.siu.edu/calendars/academic/2026-2027.php">SIU Spring 2027 academic calendar</a>.</p>
+        </section>
+        <section class="content-section table-section">
+          <div class="table-wrap">
+            <table class="table-grid schedule-table">
+              <colgroup>
+                <col class="schedule-week"><col class="schedule-dates"><col class="schedule-topic"><col class="schedule-readings"><col class="schedule-activities">
+              </colgroup>
+              <thead><tr><th>Week</th><th>Dates</th><th>Topic</th><th>Readings</th><th>Activities</th></tr></thead>
+              <tbody>
+                <tr><td>Week 1</td><td>Jan 12 / Jan 14</td><td><strong>Introduction to Spatial AI and its Applications</strong></td><td><a class="reading-indicator" href="resources.html#reading-hgai">[HGAI]</a> Section III</td><td>&mdash;</td></tr>
+                <tr><td>Week 2</td><td>Jan 19 / Jan 21</td><td rowspan="2"><strong>Spatial Data Representation</strong><ul class="topic-list"><li>Raster, Vector, Coordinate Systems</li><li>Spatial Data Management</li><li>Basic Spatial Operations</li></ul></td><td rowspan="2"><a class="reading-indicator" href="resources.html#reading-sdb">[SDB]</a> Ch. 1 and 3</td><td>Quiz 1</td></tr>
+                <tr><td>Week 3</td><td>Jan 26 / Jan 28</td><td>Quiz 2</td></tr>
+                <tr><td>Week 4</td><td>Feb 2 / Feb 4</td><td rowspan="3"><strong>Spatial Statistics and Classical Machine Learning for Spatial Data Analytics</strong><ul class="topic-list"><li>Spatial Statistics, Kriging</li><li>Clustering</li><li>Random Forest</li><li>Application: Air Quality Prediction</li></ul></td><td rowspan="3"><a class="reading-indicator" href="resources.html#reading-mmd">[MMD]</a> Ch. 7<br><a class="reading-indicator" href="resources.html#reading-pm25">[PM2.5]</a></td><td>Quiz 3</td></tr>
+                <tr><td>Week 5</td><td>Feb 9 / Feb 11</td><td>Quiz 4</td></tr>
+                <tr><td>Week 6</td><td>Feb 16 / Feb 18</td><td>Quiz 5</td></tr>
+                <!-- Topic and Readings stay merged across Spring Break; Week 9 has no class. -->
+                <tr><td>Week 7</td><td>Feb 23 / Feb 25</td><td rowspan="5"><strong>Capturing Spatial Dependencies with Deep Neural Networks</strong><ul class="topic-list"><li>Convolutional Neural Networks (CNNs), Transformers (ViTs)</li><li>Object Detection, Semantic Segmentation</li><li>Application: Text Detection, Recognition, and Linking on Maps</li></ul></td><td rowspan="5"><a class="reading-indicator" href="resources.html#reading-dl">[DL]</a> Ch. 6, 7 (optional), and 9<br><a class="reading-indicator" href="resources.html#reading-attention">[Attention]</a>; <a class="reading-indicator" href="resources.html#reading-rs-od">[RS-OD]</a><br><a class="reading-indicator" href="resources.html#reading-mapkurator">[mapKurator]</a>; <a class="reading-indicator" href="resources.html#reading-palette">[PALETTE]</a>; <a class="reading-indicator" href="resources.html#reading-light">[LIGHT]</a></td><td>Quiz 6</td></tr>
+                <tr>
+                  <td class="align-middle">Week 8</td>
+                  <td class="align-middle">Mar 2 / Mar 4</td>
+                  <td>
+                    <span class="activity-line">Quiz 7</span>
+                    <span class="activity-line">Proposal Presentation (Mar 4)</span>
+                    <span class="activity-line">Proposal Due (Mar 5)</span>
+                  </td>
+                </tr>
+                <tr class="no-class-row"><td>Week 9</td><td>Mar 9 / Mar 11</td><td>Spring Break &mdash; No Class</td></tr>
+                <tr><td>Week 10</td><td>Mar 16 / Mar 18</td><td>&mdash;</td></tr>
+                <tr><td>Week 11</td><td>Mar 23 / Mar 25</td><td>Quiz 8</td></tr>
+                <tr><td>Week 12</td><td>Mar 30 / Apr 1</td><td rowspan="3"><strong>Capturing Spatial and Temporal Dependencies with Deep Neural Networks</strong><ul class="topic-list"><li>Recurrent Neural Networks (RNNs), ConvLSTM</li><li>Language Models, GeoLM</li><li>Application: Air Quality Prediction, Human Mobility Modeling</li></ul></td><td rowspan="3"><a class="reading-indicator" href="resources.html#reading-dl">[DL]</a> Ch. 10<br><a class="reading-indicator" href="resources.html#reading-convlstm">[ConvLSTM]</a>; <a class="reading-indicator" href="resources.html#reading-deeplatte">[DeepLATTE]</a><br><a class="reading-indicator" href="resources.html#reading-spabert">[SpaBERT]</a>; <a class="reading-indicator" href="resources.html#reading-mover">[MoVER]</a></td><td>Quiz 9</td></tr>
+                <tr><td>Week 13</td><td>Apr 6 / Apr 8</td><td>Quiz 10</td></tr>
+                <tr><td>Week 14</td><td>Apr 13 / Apr 15</td><td>Quiz 11</td></tr>
+                <tr><td>Week 15</td><td>Apr 20 / Apr 22</td><td rowspan="2"><strong>GeoAI and Geospatial Foundation Models</strong><ul class="topic-list"><li>Multimodal Representation Learning, CLIP</li><li>Application: Region Encoder, Soil Mapping</li></ul></td><td rowspan="2"><a class="reading-indicator" href="resources.html#reading-hgai">[HGAI]</a> Section III<br><a class="reading-indicator" href="resources.html#reading-miso">[MISO]</a>; <a class="reading-indicator" href="resources.html#reading-regioncontext">[RegionContext]</a></td><td>Quiz 12</td></tr>
+                <tr><td>Week 16</td><td>Apr 27 / Apr 29</td><td>Quiz 13</td></tr>
+                <tr>
+                  <td class="align-middle">Week 17</td>
+                  <td class="align-middle">May 3&ndash;7</td>
+                  <td>Project Final Presentations, Peer Feedback, and Completion<ul class="topic-list"><li>Office hours and project support remain available for completing the project and final report.</li></ul></td>
+                  <td>&mdash;</td>
+                  <td>
+                    <span class="activity-line">Final Presentations (Time TBD)</span>
+                    <span class="activity-line">Report Due (May 7)</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

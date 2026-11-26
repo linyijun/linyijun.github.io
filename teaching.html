@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yijun Lin – Teaching</title>
+  <meta name="author" content="Yijun Lin | 林逸君">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" type="text/css">
+  <link rel="icon" type="image/jpg" href="images/icon.jpg">
+  <link rel="stylesheet" href="main.css?v=20260817">
+  <script src="https://kit.fontawesome.com/497f4f4907.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Top Navbar -->
+  <div id="navbar">
+    <div class="nav-container">
+      <a href="javascript:void(0);" class="icon" onclick="navExpand()" aria-label="Toggle navigation" aria-expanded="false">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </a>
+
+      <div class="nav-right">
+        <a href="index.html">About YIJUN</a>
+        <a href="publications.html">Publications</a>
+        <a href="projects.html">Research Projects</a>
+        <a href="teaching.html" class="active" aria-current="page">Teaching</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-top">
+    <div class="container">
+      <div class="row">
+        <main class="col-md-10 offset-md-1 mt-3">
+          <section class="content-section" aria-label="Teaching">
+            <p>
+              SIUC Spring 2027 - Spatial Enabled Artificial Intelligence (Undergraduate/Graduate) <a href="teaching/spatialAI/main.html">[course link]</a>
+            </p>
+          </section>
+        </main>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function navExpand() {
+      var nav = document.getElementById("navbar");
+      var expanded = nav.classList.toggle("dropped");
+      nav.querySelector(".icon").setAttribute("aria-expanded", expanded);
+    }
+  </script>
+
+</body>
+</html>
